@@ -732,7 +732,7 @@ int checkForSuscribers(keyValuePair* keyValueStore, char* key, int* SUBDatabase)
 void printKeyValueStore(keyValuePair* keyValueStore, int* SUBDatabase) {
     keyValuePair* runPointer = keyValueStore;
     int* SUBDatabaseRunPointer = SUBDatabase;
-    printf("Key\tValue\tSUBS\n");
+    printf("Key\t\tValue\t\tSUBS\n");
     for (int i = 0; i < 10; i++) {
         printf("%s\t%s\t%d\n", runPointer->key, runPointer->value, SUBDatabaseRunPointer[i]);
         runPointer++;
