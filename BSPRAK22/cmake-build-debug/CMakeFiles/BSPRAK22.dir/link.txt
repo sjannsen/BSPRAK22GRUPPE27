@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/BSPRAK22.dir/main.c.o  -o BSPRAK22 
